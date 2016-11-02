@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="1190.0" styleClass="background" stylesheets="@Buttons.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="buttonConvert" layoutX="26.0" layoutY="293.0" mnemonicParsing="false" onAction="#onClickConvert" prefHeight="50.0" prefWidth="600.0" styleClass="lion-default" text="Преобразовать" />
+      <TextArea fx:id="areaConvert" editable="false" layoutX="384.0" layoutY="45.0" prefHeight="230.0" prefWidth="242.0" />
+      <Button fx:id="buttonLoadFile" layoutX="676.0" layoutY="572.0" mnemonicParsing="false" onAction="#onClickTest" prefHeight="50.0" prefWidth="203.0" styleClass="lion-default" text="Начать" />
+      <TextArea fx:id="areaConvert2" editable="false" layoutX="26.0" layoutY="392.0" prefHeight="230.0" prefWidth="600.0" wrapText="true" />
+      <TextArea fx:id="areaTxt" layoutX="26.0" layoutY="45.0" prefHeight="230.0" prefWidth="337.0" text="28248312" />
+      <Label layoutX="26.0" layoutY="20.0" styleClass="label_mine" text="Исходное число" />
+      <Label layoutX="384.0" layoutY="20.0" styleClass="label_mine" text="Разбиение числа" />
+      <Label layoutX="26.0" layoutY="368.0" styleClass="label_mine" text="Число в текстовой форме" />
+      <Separator layoutX="642.0" layoutY="15.0" orientation="VERTICAL" prefHeight="621.0" prefWidth="22.0" />
+      <TextArea fx:id="areaDataTest" editable="false" layoutX="676.0" layoutY="45.0" prefHeight="509.0" prefWidth="493.0">
+         <font>
+            <Font size="11.0" />
+         </font></TextArea>
+      <Label layoutX="676.0" layoutY="20.0" styleClass="label_mine" text="Data Driven Test" />
+   </children>
+</Pane>

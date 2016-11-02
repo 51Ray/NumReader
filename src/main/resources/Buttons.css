@@ -1,0 +1,73 @@
+.root {
+    -fx-font-size: 16px;
+}
+
+.background {
+    -fx-background-image: url("CoarseGrid.png");
+    -fx-background-repeat: repeat;
+    -fx-background-color: linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+}
+
+.lion-default {
+    -fx-background-color: rgba(0, 0, 0, 0.08),
+    linear-gradient(#5a61af, #51536d),
+    linear-gradient(#e4fbff 0%, #cee6fb 10%, #a5d3fb 50%, #88c6fb 51%, #d5faff 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1;
+    -fx-background-radius: 5, 5, 4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+}
+
+.lion-default:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.08),
+    linear-gradient(#5a61af, #51536d),
+    linear-gradient(#e4fbff 0%, #cee6fb 10%, #a5d3fb 50%, rgba(135, 199, 255, 0.78) 51%, #d5faff 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1;
+    -fx-background-radius: 5, 5, 4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14.5px;
+}
+
+.lion-default:pressed {
+    -fx-background-insets: 2 2 2 2, 2 2 2 2, 2 2 2 2, 2 2 2 2;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(193, 225, 255, 0.77);
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0.0, 0, 1);
+    -fx-border-color: rgba(144, 187, 255, 0.3);
+    -fx-accent: rgba(100, 100, 100, 0.7);
+    -fx-focus-color: rgba(0, 0, 0, 0.3);
+}
+
+.label_mine {
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(193, 225, 255, 0.77);
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI";
+}
+
+.label:selection {
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(193, 225, 255, 0.77);
+    -fx-font-weight: bold;
+    -fx-font-size: 19px;
+    -fx-font-family: "Segoe UI";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0.0, 0, 1);
+}
+
+.viewport {
+    -fx-background-color: rgba(43, 43, 43, 0.1);
+}
+
+.content {
+    -fx-background-color: transparent;
+}
+
